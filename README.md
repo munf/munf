@@ -1,16 +1,19 @@
-## Hi there 👋
+### Hi, I'm Fajar
 
-<!--
-**munf/munf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build **[synt](https://synt.fun)** on my own from Yogyakarta, Indonesia. It is a trading terminal for new Solana pairs: every pair gets an audit score, and every score is published with its track record, so you can see how often pairs at that score collapsed before. You trade from the same screen, and your own wallet signs every transaction.
 
-Here are some ideas to get you started:
+**What is public**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [`munf/synt`](https://github.com/munf/synt): the web terminal (React, TypeScript), the account and trading service (Rust, axum, Postgres), and an MIT-licensed recorder for the BNB Chain launchpads four.meme and Flap (Rust, tokio).
+- [`munf/synt-updates`](https://github.com/munf/synt-updates): changelog, release notes and docs.
+- Live demo: [preview.synt.fun](https://preview.synt.fun)
+
+The scoring engine stays private. The data layer, which is useful to other builders, is open.
+
+**How I work**
+
+I build with AI coding agents. I set the goal and the limits, a builder agent writes the change, a separate reviewer agent checks it, and I decide what ships. The same setup runs synt's daily operations, with spending caps and an approval queue.
+
+**Before synt** I worked in AI data evaluation: search, ads and safety evaluation, preference ranking and review.
+
+**Stack:** Rust · TypeScript · React · PostgreSQL · Solana · BNB Chain · Linux
